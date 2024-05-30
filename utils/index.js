@@ -4,6 +4,10 @@ import createTokenUser from "./createTokenUser.js";
 import sendVerificationEmail from "./sendVerificationEmail.js";
 import sendResetPasswordEmail from "./sendResetPasswordEmail.js";
 import createHash from "./createHash.js";
+import {
+  checkPostPermissions,
+  checkReviewPermission,
+} from "./checkPermissions.js";
 
 export {
   getCurrentDirectory,
@@ -14,4 +18,6 @@ export {
   sendVerificationEmail,
   sendResetPasswordEmail,
   createHash,
+  checkPostPermissions,
+  checkReviewPermission,
 };
